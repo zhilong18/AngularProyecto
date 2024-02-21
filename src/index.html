@@ -6,8 +6,284 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!--<style>
+    body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        .active {
+            background-color: #4CAF50;
+        }
+ 
+        .encabezado {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/imgs/encabezado.jpeg");
+            height: 30%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+ 
+        .enc-text {
+            text-align: center;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+ 
+        .evento-container {
+            display: flex;
+        }
+ 
+        .evento-column {
+            flex: 1;
+        }
+ 
+        .evento {
+            display: flex;
+            margin-bottom: 60px;
+        }
+ 
+        .evento img {
+            width: 100%;
+            max-width: 300vh;
+            margin-right: 20px;
+        }
+ 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+ 
+        li {
+            float: left;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+ 
+        .evento .text {
+            flex: 1;
+        }
+ 
+        .checked {
+            color: orange;
+        }
+
+  </style>-->
 </head>
 <body>
   <app-root></app-root>
+  <!--<ul>
+        <li><a class="active" href="#home"> Inicio</a></li>
+        <li><a href="#news">Londres</a></li>
+        <li><a href="#contact">Paris</a></li>
+       
+    </ul>
+ 
+    <div class="encabezado">
+        <div class="enc-text">
+            <h1>Eventos</h1>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="evento">
+                    <img src="assets/imgs/La Fete de la Bastille.jpg" alt="Slide 1">
+                </div>
+            </div>
+            <div class="col">
+                <div class="text">
+                    <h2>La Fête de la Bastille</h2>
+                    <p>Este es el Día de la Bastilla, una festividad nacional francesa que conmemora la Revolución
+                        Francesa
+                        y la toma de la Bastilla el 14 de julio de 1789. La ciudad de París celebra este día con un
+                        impresionante
+                        desfile militar en los Campos Elíseos, seguido de fuegos artificiales espectaculares sobre la
+                        Torre
+                        Eiffel.
+                        Es uno de los eventos más destacados del calendario francés y atrae a visitantes de todo el
+                        mundo.
+                    </p>
+                    <button>Información</button>
+                </div>
+                <br><br>
+                <div>
+                    <h2>Reseñas Eventos</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Este es el Día de la Bastilla, una festividad nacional francesa que conmemora la Revolución
+                        Francesa
+                        y la toma de la Bastilla el 14 de julio de 1789. La ciudad de París celebra este día con un
+                        impresionante
+                        desfile militar en los Campos Elíseos, seguido de fuegos artificiales espectaculares sobre la
+                        Torre
+                        Eiffel.
+                        Es uno de los eventos más destacados del calendario francés y atrae a visitantes de todo el
+                        mundo.
+                    </p>
+                </div>
+ 
+ 
+            </div>
+ 
+        </div><br><br>
+ 
+        <div class="row">
+            <div class="col">
+                <div class="evento">
+                    <img src="assets/imgs/La Fashion Week de Paris.jpg" alt="Slide 2">
+                </div>
+            </div>
+            <div class="col">
+                <div class="text">
+                    <h2>La Fashion Week de París</h2>
+                    <p>París es una de las capitales de la moda mundial, y su Fashion Week es uno de los eventos más
+                        prestigiosos
+                        del mundo de la moda. Dos veces al año, en febrero/marzo y septiembre/octubre, diseñadores de
+                        renombre
+                        internacional presentan sus últimas colecciones en desfiles de moda que atraen a celebridades,
+                        periodistas
+                        de moda y amantes de la moda de todo el mundo. Los lugares icónicos de París, como el Louvre o
+                        el Grand Palais,
+                        a menudo sirven como escenarios para estos glamorosos eventos.</p>
+                    <button>Información</button>
+ 
+                </div>
+                <br><br>
+                <div>
+                    <h2>Reseñas Eventos</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Este es el Día de la Bastilla, una festividad nacional francesa que conmemora la Revolución
+                        Francesa
+                        y la toma de la Bastilla el 14 de julio de 1789. La ciudad de París celebra este día con un
+                        impresionante
+                        desfile militar en los Campos Elíseos, seguido de fuegos artificiales espectaculares sobre la
+                        Torre
+                        Eiffel.
+                        Es uno de los eventos más destacados del calendario francés y atrae a visitantes de todo el
+                        mundo.
+                    </p>
+                </div>
+            </div>
+        </div><br><br>
+ 
+        <div class="row">
+            <div class="col">
+                <div class="evento">
+                    <img src="assets/imgs/Fete de la Musique.png" alt="Slide 3">
+                </div>
+            </div>
+            <div class="col">
+                <div class="text">
+                    <h2>Fête de la Musique</h2>
+                    <p>La Fête de la Musique, celebrada el 21 de junio en París y en todo el mundo, es un vibrante
+                        evento anual que
+                        irradia diversidad musical al abrir las calles, plazas y espacios públicos para que músicos de
+                        todos los géneros,
+                        desde amateurs hasta profesionales, compartan su arte de manera gratuita, creando así una
+                        experiencia ecléctica
+                        y festiva que abarca desde la música clásica hasta el rock y la electrónica; esta celebración,
+                        iniciada en 1982,
+                        fomenta la participación activa, convirtiendo la ciudad en un escenario internacional donde la
+                        música se convierte
+                        en el lenguaje universal de la expresión creativa.</p>
+                    <button>Información</button>
+                </div>
+                <br><br>
+                <div>
+                    <h2>Reseñas Eventos</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Este es el Día de la Bastilla, una festividad nacional francesa que conmemora la Revolución
+                        Francesa
+                        y la toma de la Bastilla el 14 de julio de 1789. La ciudad de París celebra este día con un
+                        impresionante
+                        desfile militar en los Campos Elíseos, seguido de fuegos artificiales espectaculares sobre la
+                        Torre
+                        Eiffel.
+                        Es uno de los eventos más destacados del calendario francés y atrae a visitantes de todo el
+                        mundo.
+                    </p>
+                </div>
+            </div>
+        </div><br><br>
+ 
+        <div class="row">
+            <div class="col">
+                <div class="evento">
+                    <img src="assets/imgs/Festival de Cine de Cannes.jpg" alt="Slide 4">
+                </div>
+            </div>
+            <div class="col">
+                <div class="text">
+                    <h2>Festival de Cine de Cannes</h2>
+                    <p>El Festival de Cine de Cannes, celebrado anualmente en mayo en la ciudad francesa de Cannes,
+                        destaca como uno de los
+                        eventos cinematográficos más prestigiosos globalmente. Desde su inicio en 1946, atrae a
+                        cineastas, estrellas y profesionales
+                        de la industria, presentando una diversidad de películas. El codiciado premio, la Palma de Oro,
+                        reconoce a la mejor película.
+                        Cannes se distingue por sus estrenos destacados, glamorosas alfombras rojas y eventos que
+                        consolidan su posición como
+                        un epicentro crucial en el mundo del cine.</p>
+                    <button>Información</button>
+                </div>
+                <br><br>
+                <div>
+                    <h2>Reseñas Eventos</h2>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Este es el Día de la Bastilla, una festividad nacional francesa que conmemora la Revolución
+                        Francesa
+                        y la toma de la Bastilla el 14 de julio de 1789. La ciudad de París celebra este día con un
+                        impresionante
+                        desfile militar en los Campos Elíseos, seguido de fuegos artificiales espectaculares sobre la
+                        Torre
+                        Eiffel.
+                        Es uno de los eventos más destacados del calendario francés y atrae a visitantes de todo el
+                        mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>-->
 </body>
 </html>
